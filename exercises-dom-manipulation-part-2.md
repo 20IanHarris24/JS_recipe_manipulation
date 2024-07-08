@@ -1,39 +1,6 @@
-## Exercises on DOM Manipulation Part 1
+## Exercises in DOM manipulation.
 
-### Getting data from the DOM. 
-
-#### In this exercise you will try and get some data from the provided recipe website. Fire up the index.html on your live server.
-
-Use the appropriate methods and properties available to you to get the correct data from the "correct" recipe. All answers should be saved in some variable and logged to the console. If you don't know the right method or property to use, see this link for all available ones: https://www.w3schools.com/jsref/dom_obj_all.asp
-
-1. What is the name of the recipe?
-2. What HTML tag is used to display the Recipe name?
-3. What is the font size of the paragraph tag with the class _"description"_.
-4. What is the value of the `alt` atrribute on the image?
-5. What is the dimensions and the url of the image? Create an object that looks like this, and log it to the console:
-
-```js
-{
-  url: string
-  height: number,
-  width: number,
-}
-```
-
-6. How many ingredients has the paste?
-7. Which is the forth element in the list containing the ingredients for the paste?
-8. Create an an array of objects from the instructions. Each element in the array should be an object that looks like this:
-
-```js
-{
-  order: number;
-  text: instruction;
-}
-```
-
-## Exercises in DOM manipulation Part 2
-
-In this exercise you will be using the same pre-built webside. What's special about this website is that it comes in two versions. One which is the "correct" one and one that has many "errors" in it. Your task is to correct these errors with the aid of JavaScript. All of the right answers, styling, formatting and texts can be found in the correct version of the site. So there is your reference so to speak.
+In this exercise you will be given a already built webside with some styling included. What's special about this website is that it comes in two versions. One which is the "correct" one and one that has many "errors" in it. Your task is to correct these errors with the aid of JavaScript. All of the right answers, styling, formatting and texts can be found in the correct version of the site. So there is your reference so to speak.
 
 Each question in the following list of questions aims at a specific error on the website, and it goes from top to bottom and left to right on the website.
 

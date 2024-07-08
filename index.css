@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  color: #384241;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+body {
+  background-color: white;
+  padding-top: 70px;
+}
+
+header {
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  gap: 30px;
+  display: flex;
+  padding: 20px 20px 20px 60px;
+
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+header a {
+  color: #384241;
+  margin-right: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+}
+
+header a:hover {
+  font-weight: 700;
+  padding-right: 7.5px;
+  text-decoration: underline;
+}
+
+header a.wrong-link {
+  color: red;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.logo-text {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.introduction {
+  display: flex;
+  justify-content: space-between;
+  height: 80vh;
+  padding-top: 60px;
+}
+
+.introduction .description-container {
+  padding-inline: 60px;
+  width: 40%;
+}
+
+.introduction .description-container .time-container {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.introduction .description-container #recipe-name {
+  font-size: 54px;
+  line-height: 54px;
+  margin-bottom: 20px;
+}
+
+.introduction .image-container {
+  width: 60%;
+}
+
+.how-to-do {
+  display: flex;
+}
+
+.how-to-do .ingredients-container {
+  background-color: #f9f9f9;
+  padding: 60px;
+  width: 40%;
+}
+
+.how-to-do .instructions-container {
+  padding: 60px;
+  width: 60%;
+}
+
+.how-to-do .ingredients,
+.how-to-do .instructions {
+  font-size: 32px;
+  line-height: 32px;
+  margin-bottom: 20px;
+}
+
+.how-to-do .to-bottom,
+.how-to-do .to-paste {
+  font-size: 18;
+  font-weight: 700;
+  margin-block: 20px;
+}
+
+.how-to-do li {
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
